@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SATISFICE LOGIN</title>
+</head>
+<body>
+    <div class="parent center" id="login">
+        <img src="./LOGO_TEXTO.png" alt="logo" id="logo">
+        <form id="datos" class="center">
+            <h3>Ingresa tus datos</h3>
+
+            <div id="nombre-parent" class="center">
+                <label for="nombre">Ingresa tu nombre </label>
+                <input name="nombre" id="nombre" type="text" placeholder="Ej: Angélica" required>
+            </div>
+
+            <div id="appat-parent" class="center">
+                <label for="appat">Ingresa tu apellido paterno </label>
+                <input name="appat" id="appat" type="text" placeholder="Ej: Rodríguez" required>
+            </div>
+
+            <div id="apmat-parent" class="center">
+                <label for="apmat">Ingresa tu apellido materno </label>
+                <input name="apmat" id="apmat" type="text" placeholder="Ej: Cano" required>
+            </div>
+
+            <div id="contraseña-parent" class="center">
+                <label for="contraseña">Ingresa tu contraseña </label>
+                <input name="contraseña" id="contraseña" type="password" required>
+            </div>
+            <button type="button" id="submit" class="boton">Registrarse</button>
+        </div>
+        </form>
+        <script src="./form.js"></script>
+</body>
+</html>

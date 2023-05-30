@@ -1,0 +1,57 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon.png"
+			type="image/x-icon"
+		/>
+		<title>Carrito</title>
+	</head>
+	<body>
+		<header>
+			<div class="overlay"></div>
+			<nav>
+				<h2><img src="./images/LOGO_TEXTO.png" alt="Logo" /></h2>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="productos.html">Productos</a></li>
+                    <li><a href="dudas_sugerencias.html">Dudas y sugerencias</a></li>
+                    <li><a href="ofertas.html">Ofertas</a></li>
+					<li class="cart">
+						<a href="carrito.html">
+							<ion-icon name="basket"> </ion-icon> Carrito
+							<span>0</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<h1 id="h1-cart">Carrito</h1>
+
+		<div class="products-container">
+			<div class="product-header">
+				<h5 class="product-title">Producto</h5>
+				<h5 class="price">Precio</h5>
+				<h5 class="quantity">Cantidad</h5>
+				<h5 class="total">Total</h5>
+			</div>
+			<div class="products"></div>
+		</div>
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+		<script src="./main.js"></script>
+	</body>
+</html>
